@@ -40,7 +40,7 @@ r) Crie um método para adicionar dois objetos da classe data passados como argu
 
 s) Crie um método que subtraia duas datas e retorne o número de dias entre elas. A função recebe dois objetos da classe data passados como argumentos.
 
-u) Na Classe principal (main class) instancie um objeto da classe Tempo e faça a entrada de dados e saída dos dados para testar todos os métodos criados através de um menu.
+u) Na Classe principal (main class) instancie um objeto da classe Data e faça a entrada de dados e saída dos dados para testar todos os métodos criados através de um menu.
 
 Desenvolvido utilizado JDK 1.8 e NetBeans 13
 
