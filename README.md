@@ -1,6 +1,6 @@
 # Programa Data
 
-Faça um programa orientado a objetos para manipular o tempo de um relógio. A classe possui 3 atributos do tipo inteiro(int) chamados hora, minuto e segundo.
+Faça um programa orientado a objetos para manipular a data. A classe possui 3 atributos do tipo inteiro(int) chamados dia, mês e ano.
 
 a) Analise o contexto e faça as abstrações necessárias para obter os atributos principais;
 
