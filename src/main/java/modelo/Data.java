@@ -53,7 +53,7 @@ public class Data {
     }
 
     public void setDia(String dia) {
-        if (dia != "") {
+        if (!dia.equals("")) {
             setDia(validaDado(dia, 'd'));
         } else {
             setDia(1);
@@ -61,7 +61,7 @@ public class Data {
     }
 
     public void setMes(String mes) {
-        if (mes != "") {
+        if (!mes.equals("")) {
             setMes(validaDado(mes, 'm'));
         } else {
             setMes(1);
@@ -69,7 +69,7 @@ public class Data {
     }
 
     public void setAno(String ano) {
-        if (ano != "") {
+        if (!"".equals(ano)) {
             setAno(validaDado(ano, 'a'));
         } else {
             setAno(1);
@@ -157,7 +157,7 @@ public class Data {
     }
 
     public int validaDado(String dado, char tipo) {
-        if (dado != "") {
+        if (!dado.equals("")) {
             return validaDado(Integer.parseInt(dado), tipo);
         } else {
             return validaDado(0, tipo);

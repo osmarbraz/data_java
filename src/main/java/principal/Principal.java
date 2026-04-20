@@ -13,9 +13,9 @@ public class Principal {
      */
     public static void main(String args[]) {
         Data data = new Data();
-        int op = -2;
+        int op = -1;
         Scanner in = new Scanner(System.in);
-        while (op != 99) {
+        do {
             System.out.println(
                     "\n1  - Mudar Data\n"
                     + "2  - Incrementar dia\n"
@@ -102,6 +102,6 @@ public class Principal {
                     op = -1;
                     break;
             }
-        }
+        } while (op != 99);
     }
 }
